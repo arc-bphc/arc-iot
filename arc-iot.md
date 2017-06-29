@@ -51,9 +51,11 @@ After the bomb has been defused, it has to be moved to a 'quarantine' separated 
 
 ### Gameplay
 
-The robot will start from a box in the arena. The participant must ensure that their robot is connected to the competition WiFi.
+#### Individual Round
 
-* The robot must search for an RFID tag in the arena. This must be scanned by the robot. On scanning, the server will return a series of numbers which correspond to an instruction.
+The robot will start from a box in the arena. The participant must ensure that their robot is connected to the competition WiFi. The bombs will be placed by the competition organisers in the arena.
+
+The robot must search for an RFID tag in the arena. This must be scanned by the robot. On scanning, the server will return a series of numbers which correspond to an instruction.
 
 There can be three types of instructions for the bombs:
 
@@ -63,7 +65,15 @@ There can be three types of instructions for the bombs:
 
 Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb will 'explode' (i.e., it cannot be defused again) and a penalty will be imposed.
 
-Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded. 
+Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded.
+
+Each team gets a total of 5 minutes to get as many points as they can.
+
+#### Knockout Round
+
+After the individual rounds for all the teams are completed, the top four teams are selected for the Knockout Round.
+
+The rules regarding bomb defusal is the same as in the Individual round. However, in the Knockout Round, two teams play at once. One team gets 5 minutes to set the bombs in the arena and the other team gets 5 minutes to defuse these bombs. After this, the teams setting the bombs and defusing the bombs are reversed. The team with the highest cumulative score of setting and defusing wins.
 
 ### Rules and Guidelines
 
