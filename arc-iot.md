@@ -51,7 +51,7 @@ After the bomb has been defused, it has to be moved to a 'quarantine' separated 
 
 ### Gameplay
 
-Each bomb can has different states it can exist in:
+Each bomb has four possible states:
 
 * **Armed** - when the bomb has not been defused.
 * **Defused** - when the bomb has been defused by carrying out the instructions on the RFID tag, but not moved to the quarantine area.
