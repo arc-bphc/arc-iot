@@ -86,7 +86,7 @@ Each team gets a total of 5 minutes to get as many points as they can.
 
 After the individual rounds for all the teams are completed, the top four teams are selected for the Knockout Round.
 
-The rules regarding bomb defusal is the same as in the Individual round. However, in the Knockout Round, two teams play at once. One team gets 5 minutes to set the bombs in the arena and the other team gets 5 minutes to defuse these bombs. After this, the teams setting the bombs and defusing the bombs are reversed. The team with the highest cumulative score of setting and defusing wins.
+The rules regarding bomb defusal are the same as in the Individual round. However, in the Knockout Round, two teams play at once. One team gets 5 minutes to set the bombs in the arena and the other team gets 5 minutes to defuse these bombs. After this, the teams setting the bombs and defusing the bombs are reversed. The team with the highest cumulative score of setting and defusing wins.
 
 #### Scoring System
 
