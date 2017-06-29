@@ -11,23 +11,23 @@
 
 The arena will consist of three areas:
 
-* Bomb Maze
+#### Bomb Maze
 
- The bombs in the arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
+The bombs in the arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
 
- The bombs are cardboard boxes of a consistent size of <insert dim>. The bombs are labelled and mounted with an LED showing whether the bomb is defused or not. The bomb may *only* be moved when it has been defused.
+The bombs are cardboard boxes of a consistent size of <insert dim>. The bombs are labelled and mounted with an LED showing whether the bomb is defused or not. The bomb may *only* be moved when it has been defused.
 
-* Bomb Scanner
+#### Bomb Scanner
 
- The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb. Only one tag can be scanned at a time.
+The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb. Only one tag can be scanned at a time.
 
- The robot must scan this RFID tag to defuse the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. The server will defuse the bomb, will return the bomb number, and it then be moved by the robot.
+The robot must scan this RFID tag to defuse the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. The server will defuse the bomb, will return the bomb number, and it then be moved by the robot.
 
- The server will be provided by the organisers.
+The server will be provided by the organisers.
 
-* Bomb Quarantine
+#### Bomb Quarantine
 
- After the bomb has been defused, it has to be moved to a 'quarantine' separated from the maze. On placing the bomb here, the participant will be awarded points. Please see the 'Game Rules' section for more details on the scoring system.
+After the bomb has been defused, it has to be moved to a 'quarantine' separated from the maze. On placing the bomb here, the participant will be awarded points. Please see the 'Game Rules' section for more details on the scoring system.
 
 <insert image of arena>
 
