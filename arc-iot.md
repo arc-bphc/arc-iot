@@ -68,7 +68,7 @@ Type-1 bombs **must** be quarantined right after defusing them. If another RFID 
 
 Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded.
 
-Each team gets a total of 5 minutes to get as many points as they can.
+Each team gets a total of **5 minutes** to get as many points as they can.
 
 #### Scoring System
 
