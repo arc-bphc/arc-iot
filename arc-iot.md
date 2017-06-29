@@ -1,17 +1,16 @@
-# ARC IoT Competition for ATMOS 2017
-## Bomb Defusal
+# ARC IoT Competition for ATMOS 2017 - Bomb Defusal
 
-### Summary
+## Summary
 
 * The goal in this competition is to build an autonomous or manually controlled robot to defuse "bombs".
 * To use the robot to move cubes from pre-marked areas in the arena to pre-marked safe zones for depositing them.
 * Points are awarded for defusing and displacing a defused bomb to a safe area. The team with the most points at the end of a round wins.
 
-### Arena
+## Arena
 
 The arena will consist of two areas:
 
-#### Bomb Maze
+### Bomb Maze
 
 * The bombs in the arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
 * The bombs are cardboard boxes of a consistent size of <insert dim>. The bombs are labelled and mounted with an LED showing whether the bomb is defused or not. The bomb may *only* be moved when it has been defused.
@@ -20,15 +19,15 @@ The arena will consist of two areas:
 
 The server will be provided by the organisers.
 
-#### Bomb Quarantine
+### Bomb Quarantine
 
 * After the bomb has been defused, it has to be moved to a 'quarantine' separated from the maze. On placing the bomb here, the participant will be awarded points. Please see the 'Gameplay' section for more details on the scoring system.
 
 <insert image of arena>
 
-### Bot Specifications
+## Bot Specifications
 
-#### Tech Specs
+### Tech Specs
 
 * Max size: 300mm x 300 mm x 300 mm (l x b x h)
 * Max weight: 5kg
@@ -36,7 +35,7 @@ The server will be provided by the organisers.
 * Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or lead acid)
 * Wireless Communication: 2.4 GHz RF, WiFi, Bluetooth, NRF, or ZigBee can be used
 
-#### Other Requirements
+### Other Requirements
 
 * Commercially available ready-made robots are not allowed.
 * Each team is allowed to have only one robot.
@@ -44,7 +43,7 @@ The server will be provided by the organisers.
 * The robot must have an appendage for lifting and placing the bomb without pulling/pushing or damaging the bomb in any way. This can be any mechanical setup.
 * There are no restrictions on the sensors. However, to complete the competition, each robot must have a WiFi module and an RFID scanner onboard.
 
-### Gameplay
+## Gameplay
 
 Each bomb has four possible states:
 
@@ -53,7 +52,7 @@ Each bomb has four possible states:
 * **Quarantined** - when the bomb has been successfully placed in the quarantine area after being defused.
 * **Exploded** - happens when the bomb has been moved when in an Armed state. This will result in a penalty.
 
-#### Individual Round
+### Individual Round
 
 The robot will start from a box in the arena. The participant must ensure that their robot is connected to the competition WiFi. The bombs will be placed by the competition organisers in the arena.
 
@@ -71,38 +70,38 @@ Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** b
 
 Each team gets a total of 5 minutes to get as many points as they can.
 
-##### Scoring System
+#### Scoring System
 
 * Type-1 Bomb Defusal: 20 points
 * Type-2 Bomb Defusal: 50 points for defusing the bomb, 10 points for defusing each of the pre-requisite bombs
 * Type-3 Bomb Defusal: 10 points
 * Quarantining a bomb (any type): 50 points
 
-##### Penalty
+#### Penalty
 
 * Lifting an Armed bomb: -10 points
 * Scanning two tags consecutively for a Type-1 bomb: -10 points
 
-#### Knockout Round
+### Knockout Round
 
 After the individual rounds for all the teams are completed, the top four teams are selected for the Knockout Round.
 
 The rules regarding bomb defusal is the same as in the Individual round. However, in the Knockout Round, two teams play at once. One team gets 5 minutes to set the bombs in the arena and the other team gets 5 minutes to defuse these bombs. After this, the teams setting the bombs and defusing the bombs are reversed. The team with the highest cumulative score of setting and defusing wins.
 
-### Rules and Guidelines
+## Rules and Guidelines
 
 The organizers reserve the right to change any of the above said rules, at any time.
 Changes will be notified on the website and Facebook page. It is the participant’s
 responsibility to stay updated.
 
-#### Setup Time
+### Setup Time
 
 * The participants will get 10 minutes of setup time for calibration and testing prior to the competition, according to a schedule that will be made available at the start of the event.
 * Ensure that all of the vehicle's sensors, especially the WiFi module and wireless control are working properly.
 * The machines will be checked for their safety before the run and discarded if found unsafe for other participants and spectators.
 * The bot must be placed in the starting point on the arena, at the beginning of each round.
 
-#### Competition
+### Competition
 
 * Participants will not be permitted to enter the arena or touch any of the bombs inside or outside the arena, during a match.
 * A robot can only move one bomb at a time.
@@ -111,14 +110,15 @@ responsibility to stay updated.
 * Participants should not dismantle their robots before the competition results are announced as the machines might need to be verified by the organizers at a later stage to ensure that the participants have not violated any of the rules.
 * In case of any dispute, the decision of the judges is final.
 
-#### Disqualification
+### Disqualification
 
 A team may be disqualifed due to, but not limited to the following:
 * The robot damages a bomb when moving it.
 * The participating team is not ready in time for the start of their turn.
 * The robot damages the arena.
 
-### Paritcipation
+## Paritcipation
+
 * Participants can register in teams of 1-4 people.
 * Students from different educational institutes can form a team.
 * All participants must have a valid ID card from their educational institute.
