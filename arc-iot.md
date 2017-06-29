@@ -29,7 +29,7 @@ The server will be provided by the organisers.
 
 ### Tech Specs
 
-* Max size: 300mm x 300 mm x 300 mm (l x b x h)
+* Max size: 300mm x 300mm x 300mm (l x b x h)
 * Max weight: 5kg
 * Max operating voltage: 12V
 * Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or lead acid)
