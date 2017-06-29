@@ -112,7 +112,6 @@ responsibility to stay updated.
 
 * The participants will get 10 minutes of setup time for calibration and testing prior to the competition, according to a schedule that will be made available at the start of the event.
 * Ensure that all of the vehicle's sensors, especially the WiFi module and wireless control are working properly.
-* The machines will be checked for their safety before the run and discarded if found unsafe for other participants and spectators.
 * The bot must be placed in the starting point on the arena, at the beginning of each round.
 
 ### Competition
@@ -126,7 +125,8 @@ responsibility to stay updated.
 
 ### Disqualification
 
-A team may be disqualifed due to, but not limited to the following:
+A team may be disqualified due to, but not limited to the following:
+
 * The robot damages a bomb when moving it.
 * The participating team is not ready in time for the start of their turn.
 * The robot damages the arena.
