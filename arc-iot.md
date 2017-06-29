@@ -62,22 +62,17 @@ responsibility to stay updated.
 #### Setup Time
 
 * The participants will get 10 minutes of setup time for calibration and testing prior to
-the competition, according to a schedule that will be made available at the start of
-the event.
-* The machines will be checked for their safety before the run and discarded if found
-unsafe for other participants and spectators.
+the competition, according to a schedule that will be made available at the start of the event.
+* The machines will be checked for their safety before the run and discarded if found unsafe for other participants and spectators.
 * The bot must be placed in the starting point on the arena, at the beginning of each round.
 
-* Participants will not be permitted to enter the arena or touch any of the bombs inside or
-outside the arena, during a match.
+#### Competition
+
+* Participants will not be permitted to enter the arena or touch any of the bombs inside or outside the arena, during a match.
 * A robot can only move one bomb at a time.
 * The robots can come in contact with the walls but should not damage it.
-* Organizers will not be responsible for any minor scratches left by the previous
-machines, on the arena.
-* Participants should not dismantle their robots before the competition results are
-announced as the machines might need to be verified by the organizers at a later
-stage to ensure that the participants have not violated any of the rules.
-
+* Organizers will not be responsible for any minor scratches left by the previous machines, on the arena.
+* Participants should not dismantle their robots before the competition results are announced as the machines might need to be verified by the organizers at a later stage to ensure that the participants have not violated any of the rules.
 * In case of any dispute, the decision of the judges will be held final.
 
 #### Disqualification
