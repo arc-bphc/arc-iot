@@ -88,6 +88,20 @@ After the individual rounds for all the teams are completed, the top four teams 
 
 The rules regarding bomb defusal is the same as in the Individual round. However, in the Knockout Round, two teams play at once. One team gets 5 minutes to set the bombs in the arena and the other team gets 5 minutes to defuse these bombs. After this, the teams setting the bombs and defusing the bombs are reversed. The team with the highest cumulative score of setting and defusing wins.
 
+#### Scoring System
+
+* Type-1 Bomb Defusal: 20 points
+* Type-2 Bomb Defusal: 50 points for defusing the bomb, 10 points for defusing each of the pre-requisite bombs
+* Type-3 Bomb Defusal: 10 points
+* Quarantining a bomb (any type): 50 points
+
+#### Penalty
+
+* Lifting an Armed bomb: -10 points
+* Scanning two tags consecutively for a Type-1 bomb: -10 points
+
+<add score/penalty for the moving bombs>
+
 ## Rules and Guidelines
 
 The organizers reserve the right to change any of the above said rules, at any time.
