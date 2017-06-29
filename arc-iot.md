@@ -32,7 +32,7 @@ The server will be provided by the organisers.
 * Max Size: 300mm x 300mm x 300mm (l x b x h)
 * Max Weight: 5kg
 * Max Operating Voltage: 12V
-* Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or lead acid)
+* Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or Lead Acid)
 * Wireless Communication: 2.4 GHz RF, WiFi, Bluetooth, NRF, or ZigBee can be used
 
 ### Other Requirements
