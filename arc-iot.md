@@ -3,16 +3,16 @@
 ## Summary
 
 * The goal in this competition is to build an autonomous or manually controlled robot to defuse "bombs".
-* To use the robot to move cubes from pre-marked areas in the arena to pre-marked safe zones for depositing them.
+* To use the robot to move cubes from pre-marked areas in the Arena to pre-marked safe zones for depositing them.
 * Points are awarded for defusing and displacing a defused bomb to a safe area. The team with the most points at the end of a round wins.
 
-## Arena
+## Competition Arena
 
-The arena will consist of two areas:
+The Arena will consist of two areas:
 
 ### Bomb Maze
 
-* The bombs in the arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
+* The bombs in the Arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
 * The bombs are cardboard boxes of a consistent size of <insert dim>. The bombs are labelled and mounted with an LED showing whether the bomb is defused or not. The bomb may *only* be moved when it has been defused.
 * The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb. Only one tag can be scanned at a time.
 * The robot must scan this RFID tag to defuse the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. The server will then send an numeric instructions to the robot.
@@ -54,9 +54,9 @@ Each bomb has four possible states:
 
 ### Individual Round
 
-The robot will start from a box in the arena. The participant must ensure that their robot is connected to the competition WiFi. The bombs will be placed by the competition organisers in the arena.
+The robot will start from a box in the Arena. The participant must ensure that their robot is connected to the competition WiFi. The bombs will be placed by the competition organisers in the Arena.
 
-The robot must search for an RFID tag in the arena. This must be scanned by the robot. On scanning, the server will return a series of numbers which correspond to an instruction.
+The robot must search for an RFID tag in the Arena. This must be scanned by the robot. On scanning, the server will return a series of numbers which correspond to an instruction.
 
 There can be three types of instructions for the bombs:
 
@@ -112,24 +112,24 @@ responsibility to stay updated.
 
 * The participants will get 10 minutes of setup time for calibration and testing prior to the competition, according to a schedule that will be made available at the start of the event.
 * Ensure that all of the vehicle's sensors, especially the WiFi module and wireless control are working properly.
-* The bot must be placed in the starting point on the arena, at the beginning of each round.
+* The bot must be placed in the starting point on the Arena, at the beginning of each round.
 
 ### Competition
 
-* Participants will not be permitted to enter the arena or touch any of the bombs inside or outside the arena, during a match.
+* Participants will not be permitted to enter the Arena or touch any of the bombs inside or outside the Arena, during a match.
 * A robot can only move one bomb at a time.
 * The robots can come in contact with the walls but should not damage it.
-* Organizers will not be responsible for any minor scratches left by the previous machines, on the arena.
-* Participants should not dismantle their robots before the competition results are announced as the machines might need to be verified by the organizers at a later stage to ensure that the participants have not violated any of the rules.
+* Participants should *not* dismantle their robots before the competition results are announced as the robots might need to be checked by the organizers at a later stage to ensure that the participants have not violated any of the rules.
 * In case of any dispute, the decision of the judges is final.
 
 ### Disqualification
 
 A team may be disqualified due to, but not limited to the following:
 
+* The robot fails to meet any of the criteria in the Bot Specifications section.
 * The robot damages a bomb when moving it.
 * The participating team is not ready in time for the start of their turn.
-* The robot damages the arena.
+* The robot damages the Competition Arena.
 
 ## Paritcipation
 
