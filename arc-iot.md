@@ -51,18 +51,30 @@ After the bomb has been defused, it has to be moved to a 'quarantine' separated 
 
 ### Gameplay
 
+The robot will start from a box in the arena. The participant must ensure that their robot is connected to the competition WiFi.
 
+* The robot must search for an RFID tag in the arena. This must be scanned by the robot. On scanning, the server will return a series of numbers which correspond to an instruction.
+
+There can be three types of instructions for the bombs:
+
+1. 'X' - The bomb numbered 'X' is defused and can be moved to the quarantine area.
+2. 'X X' - The bomb numbered 'X' can be moved even after another tag is scanned consecutively.
+3. 'A X Y Z...' - The bomb numbered 'A' can only be defused once the bombs numbered 'X', 'Y', and 'Z' are defused. Once the pre-requisite bombs are defused, 'A' can be moved to the quarantine area.
+
+Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb will 'explode' (i.e., it cannot be defused again) and a penalty will be imposed.
+
+Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded. 
 
 ### Rules and Guidelines
 
-* The organizers reserve the right to change any of the above said rules, at any time.
+The organizers reserve the right to change any of the above said rules, at any time.
 Changes will be notified on the website and Facebook page. It is the participant’s
 responsibility to stay updated.
 
 #### Setup Time
 
-* The participants will get 10 minutes of setup time for calibration and testing prior to
-the competition, according to a schedule that will be made available at the start of the event.
+* The participants will get 10 minutes of setup time for calibration and testing prior to the competition, according to a schedule that will be made available at the start of the event.
+* Ensure that all of the vehicle's sensors, especially the WiFi module and wireless control are working properly.
 * The machines will be checked for their safety before the run and discarded if found unsafe for other participants and spectators.
 * The bot must be placed in the starting point on the arena, at the beginning of each round.
 
@@ -73,7 +85,7 @@ the competition, according to a schedule that will be made available at the star
 * The robots can come in contact with the walls but should not damage it.
 * Organizers will not be responsible for any minor scratches left by the previous machines, on the arena.
 * Participants should not dismantle their robots before the competition results are announced as the machines might need to be verified by the organizers at a later stage to ensure that the participants have not violated any of the rules.
-* In case of any dispute, the decision of the judges will be held final.
+* In case of any dispute, the decision of the judges is final.
 
 #### Disqualification
 
