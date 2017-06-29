@@ -68,7 +68,7 @@ There can be three types of instructions for the bombs:
 
 1. 'X' - The bomb numbered 'X' is defused and can be moved to the quarantine area.
 2. 'X X' - The bomb numbered 'X' can be moved even after another tag is scanned consecutively.
-3. 'A X Y Z...' - The bomb numbered 'A' can only be defused once the bombs numbered 'X', 'Y', and 'Z' are defused. Once the pre-requisite bombs are defused, 'A' can be moved to the quarantine area.
+3. 'A X Y...Z' - The bomb numbered 'A' can only be defused once the bombs numbered 'X', 'Y' till 'Z' are defused. Once the pre-requisite bombs are defused, 'A' can be moved to the quarantine area.
 
 Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb will 'explode' (i.e., it cannot be defused again) and a penalty will be imposed.
 
