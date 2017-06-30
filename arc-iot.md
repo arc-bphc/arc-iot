@@ -13,8 +13,8 @@ The Arena will consist of two areas:
 ### Bomb Maze
 
 * The bombs in the Arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
-* The bombs are cardboard boxes of a consistent size of <insert dim>. The bombs are labelled and mounted with an LED showing whether the bomb is defused or not. The bomb may *only* be moved when it has been defused.
-* The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb. Only one tag can be scanned at a time.
+* The bombs are cardboard boxes of cubes of a consistent size of 5cm x 5cm x 5cm. The bombs are labelled with numberr and mounted with an LED showing the state of the bomb. The bomb may *only* be moved when it has been defused.
+* The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb.
 * The robot must scan this RFID tag to defuse the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. The server will then send an numeric instructions to the robot.
 
 The server will be provided by the organisers.
@@ -32,14 +32,14 @@ The server will be provided by the organisers.
 * Max Size: 300mm x 300mm x 300mm (l x b x h)
 * Max Weight: 5kg
 * Max Operating Voltage: 12V
-* Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or Lead Acid)
+* Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or Lead-acid)
 * Wireless Communication: 2.4 GHz RF, WiFi, Bluetooth, NRF, or ZigBee can be used
 
 ### Other Requirements
 
 * Commercially available ready-made robots are not allowed.
 * Each team is allowed to have only one robot.
-* The robot may be autonomous or manually controlled. If manually controlled, the bot must be controlled over wireless.
+* The robot may be autonomous or manually controlled. If manually controlled, the bot must be controlled over wireless **only**.
 * The robot must have an appendage for lifting and placing the bomb without pulling/pushing or damaging the bomb in any way. This can be any mechanical setup.
 * There are no restrictions on the sensors. However, to complete the competition, each robot must have a WiFi module and an RFID scanner onboard.
 
@@ -62,13 +62,13 @@ There can be three types of instructions for the bombs:
 
 1. **X** - The bomb numbered 'X' is defused and can be moved to the quarantine area.
 2. **X X** - The bomb numbered 'X' can be moved even after another tag is scanned consecutively.
-3. **A X Y...Z** - The bomb numbered 'A' can only be defused once the bombs numbered 'X', 'Y' till 'Z' are defused. Once the pre-requisite bombs are defused, 'A' can be moved to the quarantine area.
+3. **A X Y...Z** - The bomb numbered 'A' can only be defused once the bombs numbered 'X', 'Y' till 'Z' are defused. Once the pre-requisite bombs are defused, 'A' can be moved to the quarantine area. An example is that an instruction '5 9 2 3' means that bombs 9, 2, and 3 must all be defused and quarantined before 5 can be quarantined.
 
 Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb will 'explode' (i.e., it cannot be defused again) and a penalty will be imposed.
 
 Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded.
 
-Each team gets a total of **5 minutes** to get as many points as they can.
+Each team gets a total of **5 minutes** in the Arena to get as many points as they can.
 
 #### Scoring System
 
@@ -86,9 +86,17 @@ Each team gets a total of **5 minutes** to get as many points as they can.
 
 After the individual rounds for all the teams are completed, the top four teams are selected for the Knockout Round.
 
-The rules regarding bomb defusal are the same as in the Individual round. However, in the Knockout Round, two teams play at once. One team gets 5 minutes to set the bombs in the arena and the other team gets 5 minutes to defuse these bombs. After this, the teams setting the bombs and defusing the bombs are reversed. The team with the highest cumulative score of setting and defusing wins.
+The rules regarding bomb defusal are the same as in the Individual round. However, in the Knockout Round, **two teams** play at once.
+
+One team gets **5 minutes** to **place** the bombs in the arena and the other team gets **5 minutes** to defuse these bombs as per the rules in the Individual round. After this, the teams placing the bombs and defusing the bombs are **reversed** and the game is played again. The team with the highest cumulative score of setting and defusing wins.
 
 #### Scoring System
+
+##### Placing Bombs
+
+* Points awarded = Number of Bombs left after the round is over x 50 points
+
+##### Defusing Bombs
 
 * Type-1 Bomb Defusal: 20 points
 * Type-2 Bomb Defusal: 50 points for defusing the bomb, 10 points for defusing each of the pre-requisite bombs
@@ -97,10 +105,14 @@ The rules regarding bomb defusal are the same as in the Individual round. Howeve
 
 #### Penalty
 
+##### Placing Bombs
+
+* No penalties
+
+##### Defusing Bombs
+
 * Lifting an Armed bomb: -10 points
 * Scanning two tags consecutively for a Type-1 bomb: -10 points
-
-<add score/penalty for the moving bombs>
 
 ## Rules and Guidelines
 
@@ -120,7 +132,7 @@ responsibility to stay updated.
 * A robot can only move one bomb at a time.
 * The robots can come in contact with the walls but should not damage it.
 * Participants should *not* dismantle their robots before the competition results are announced as the robots might need to be checked by the organizers at a later stage to ensure that the participants have not violated any of the rules.
-* In case of any dispute, the decision of the judges is final.
+* In case of any dispute, the verdict of the judges is final.
 
 ### Disqualification
 
