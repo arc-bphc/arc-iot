@@ -24,6 +24,8 @@ The server will be provided by the organisers.
 
 ![](maze.png)
 
+*This map is purely for representational purposes only. The number of and placement of bombs, RFID tags, and maze pattern is subject to change. The dimensions of the Competition Arena will be the same as illustrated here.*
+
 ## Bot Specifications
 
 ### Tech Specs
