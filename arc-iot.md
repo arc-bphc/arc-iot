@@ -2,8 +2,7 @@
 
 ## Summary
 
-* The goal in this competition is to build an autonomous or manually controlled robot to defuse "bombs".
-* To use the robot to move cubes from pre-marked areas in the Arena to pre-marked safe zones for depositing them.
+* To use an autonomous or manually controlled robot to move cubes from pre-marked areas in the Arena to pre-marked safe zones for depositing them.
 * Points are awarded for defusing and displacing a defused bomb to a safe area. The team with the most points at the end of a round wins.
 
 ## Competition Arena
@@ -23,7 +22,7 @@ The server will be provided by the organisers.
 
 * After the bomb has been defused, it has to be moved to a 'quarantine' separated from the maze. On placing the bomb here, the participant will be awarded points. Please see the 'Gameplay' section for more details on the scoring system.
 
-<insert image of arena>
+![](maze.png)
 
 ## Bot Specifications
 
@@ -64,7 +63,7 @@ There can be three types of instructions for the bombs:
 2. **X X** - The bomb numbered 'X' can be moved even after another tag is scanned consecutively.
 3. **A X Y...Z** - The bomb numbered 'A' can only be defused once the bombs numbered 'X', 'Y' till 'Z' are defused. Once the pre-requisite bombs are defused, 'A' can be moved to the quarantine area. An example is that an instruction '5 9 2 3' means that bombs 9, 2, and 3 must all be defused and quarantined before 5 can be quarantined.
 
-Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb will 'explode' (i.e., it cannot be defused again) and a penalty will be imposed.
+Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb's state will reset (i.e., it must be defused again) and a penalty will be imposed.
 
 Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded.
 
@@ -79,7 +78,7 @@ Each team gets a total of **5 minutes** in the Arena to get as many points as th
 
 #### Penalty
 
-* Lifting an Armed bomb: -10 points
+* Lifting an Armed bomb: -50 points and the bomb cannot be defused again
 * Scanning two tags consecutively for a Type-1 bomb: -10 points
 
 ### Knockout Round
@@ -111,7 +110,7 @@ One team gets **5 minutes** to **place** the bombs in the arena and the other te
 
 ##### Defusing Bombs
 
-* Lifting an Armed bomb: -10 points
+* Moving an Armed bomb: -50 points and the bomb cannot be defused again
 * Scanning two tags consecutively for a Type-1 bomb: -10 points
 
 ## Rules and Guidelines
