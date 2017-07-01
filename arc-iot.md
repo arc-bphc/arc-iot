@@ -153,13 +153,21 @@ A team may be disqualified due to, but not limited to the following:
 ## Contact
 
 Arnav Dhamija
+
 Phone: 9900855740
+
 E-mail: arnav.dhamija@gmail.com
 
+
 Yashdeep Thorat
+
 Phone: 9010712068
+
 E-mail: yashdeep97@gmail.com
 
+
 Yohan MR
+
 Phone: 9640553127
+
 E-mail: yohanmr2102@gmail.com
