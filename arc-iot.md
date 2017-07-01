@@ -28,7 +28,7 @@ The server will be provided by the organisers.
 
 ## Bot Specifications
 
-### Tech Specs
+### Technical Specifications
 
 * Max Size: 300mm x 300mm x 300mm (l x b x h)
 * Max Weight: 5kg
