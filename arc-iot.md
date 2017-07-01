@@ -149,3 +149,17 @@ A team may be disqualified due to, but not limited to the following:
 * Participants can register in teams of 1-4 people.
 * Students from different educational institutes can form a team.
 * All participants must have a valid ID card from their educational institute.
+
+## Contact
+
+Arnav Dhamija
+Phone: 9900855740
+E-mail: arnav.dhamija@gmail.com
+
+Yashdeep Thorat
+Phone: 9010712068
+E-mail: yashdeep97@gmail.com
+
+Yohan MR
+Phone: 9640553127
+E-mail: yohanmr2102@gmail.com
