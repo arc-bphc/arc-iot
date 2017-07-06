@@ -12,7 +12,8 @@ The Arena will consist of two areas:
 
 ### Bomb Maze
 
-* The bombs in the Arena are scattered throughout a maze. This maze is open from the top and can be seen by the participants controlling the bot.
+* The bombs in the Arena are scattered throughout a maze.
+* This maze is open from the top and can be seen by the participants controlling the bot.
 * The bombs are cardboard boxes of cubes of a consistent size of 5cm x 5cm x 5cm. The bombs are labelled with numberr and mounted with an LED showing the state of the bomb. The bomb may *only* be moved when it has been defused.
 * The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb.
 * The robot must scan this RFID tag to defuse the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. The server will then send an numeric instructions to the robot.
