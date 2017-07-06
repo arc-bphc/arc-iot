@@ -65,8 +65,8 @@ There can be three types of instructions for the bombs. The instructions are pro
 
 Examples of these instructions are given below:
 
-1. One Digit Instruction - e.g. **1** - The bomb numbered '1' is defused and can be moved to the quarantine area.
-2. Two Digit Instruction - e.g. **4 4** - The bomb numbered '4' can be moved even **after** another tag is scanned consecutively.
+1. 1-Digit Instruction - e.g. **1** - The bomb numbered '1' is defused and can be moved to the quarantine area.
+2. 2-Digit Instruction - e.g. **4 4** - The bomb numbered '4' can be moved even **after** another tag is scanned consecutively.
 3. N-Digit Instruction - e.g. **5 2 7 3 6** - The bomb numbered '5' can only be defused once the bombs numbered '2', '7', '3', and '6' are defused and quarantined. '2', '3', '7', and '6' can be defused and quarantined in any order. Once the pre-requisite bombs are defused, '5' can be moved to the quarantine area.
 
 Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb's state will reset (i.e., it must be defused again) and a penalty will be imposed.
