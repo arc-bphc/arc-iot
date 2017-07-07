@@ -97,6 +97,10 @@ One team gets **5 minutes** to **place** the bombs in the Arena and the other te
 
 The organizers of the competition will decide the number of Type-1, Type-2, and Type-3 bombs for the team to place in the Arena. The number of each type of bombs will be the same in both rounds. All the bombs will initially be kept in the Bomb Quarantine part of the Arena and the team placing the bombs must lift the bombs and place it in the Bomb Maze part of the Arena.
 
+The progression of the top four teams in the Knockout round is as follows:
+
+![](knockout.png)
+
 #### Scoring System
 
 ##### Placing Bombs
