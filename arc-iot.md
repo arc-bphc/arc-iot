@@ -14,15 +14,15 @@ The Arena will consist of two areas:
 
 * The bombs in the Arena are scattered throughout a maze.
 * This maze is open from the top and can be seen by the participants controlling the bot.
-* The bombs are cardboard boxes of cubes of a consistent size of 5cm x 5cm x 5cm. The bombs are labelled with numberr and mounted with an LED showing the state of the bomb. The bomb may *only* be moved when it has been defused.
-* The bomb maze section has several RFID tags scattered throughout it, each of which correspond to a bomb.
-* The robot must scan this RFID tag to defuse the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. The server will then send an numeric instructions to the robot.
+* The bombs are cardboard boxes of cubes of a consistent size of 5cm x 5cm x 5cm. The bombs are labelled with number. The bomb may *only* be moved when it has been disarmed.
+* The bomb maze section has several RFID tags scattered throughout it, each of which correspond to one bomb.
+* The robot must scan this RFID tag to disarm the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. A display will then indicate the bomb to be moved to the Quarantine area.
 
-The server will be provided by the organisers.
+The server and display will be provided by the organisers.
 
 ### Bomb Quarantine
 
-* After the bomb has been defused, it has to be moved to a 'quarantine' separated from the maze. On placing the bomb here, the participant will be awarded points. Please see the 'Gameplay' section for more details on the scoring system.
+* After the bomb has been disarmed, it has to be moved to a 'Quarantine' separated from the maze. On placing the bomb here, the participant will be awarded points. Please see the 'Gameplay' section for more details on the scoring system.
 
 ![](maze.png)
 
@@ -50,42 +50,32 @@ The server will be provided by the organisers.
 
 Each bomb has four possible states:
 
-* **Armed** - when the bomb has not been defused.
-* **Defused** - when the bomb has been defused by carrying out the instructions on the RFID tag, but not moved to the quarantine area.
-* **Quarantined** - when the bomb has been successfully placed in the quarantine area after being defused.
-* **Exploded** - happens when the bomb has been moved when in an Armed state. This will result in a penalty.
+* **Armed** - the initial state of the bomb.
+* **Disarmed** - when the RFID tag of a bomb has been scanned but the bomb has not been Defused. The bomb can only be moved in this state.
+* **Defused** - when the bomb has been successfully placed in the quarantine area after being Disarmed.
+* **Exploded** - happens when the bomb has been moved when in an Armed state. This will result in a penalty. The bomb cannot be Defused after this.y
 
 ### Individual Round
 
-The robot will start from a box in the Arena. The participant must ensure that their robot is connected to the competition WiFi. The bombs will be placed by the competition organisers in the Arena.
+The robot will start from a box in the Arena. The participant must ensure that their robot is connected to the competition's WiFi network. The bombs and RFID tags will be placed by the competition organisers in the Arena.
 
-The robot must search for an RFID tag in the Arena. This must be scanned by the robot. On scanning, the server will return a series of numbers which correspond to an instruction.
+The robot must go to an RFID tag in the Arena. This must be scanned by the robot to set the status of the bomb to Disarmed. On scanning the RFID tag, a display will show the number of the bomb to be Defused. This bomb must be moved to the quarantine area within **60 seconds** of scanning the RFID tag. On placing the bomb in the Quarantine area, the bomb will be marked as Defused and points will be awarded for the same.
 
-There can be three types of instructions for the bombs. The instructions are provided are just a simple sequence of numbers.
+In case the player is *not* able to move the bomb to the Quarantine area in time, the bomb will explode and a penalty will be imposed on the team. No points will be awarded to the team after it explodes.
 
-Examples of these instructions are given below:
-
-1. 1-Digit Instruction - e.g. **1** - The bomb numbered '1' is defused and can be moved to the quarantine area.
-2. 2-Digit Instruction - e.g. **4 4** - The bomb numbered '4' can be moved even **after** another tag is scanned consecutively.
-3. N-Digit Instruction - e.g. **5 2 7 3 6** - The bomb numbered '5' can only be defused once the bombs numbered '2', '7', '3', and '6' are defused and quarantined. '2', '3', '7', and '6' can be defused and quarantined in any order. Once the pre-requisite bombs are defused, '5' can be moved to the quarantine area.
-
-Type-1 bombs **must** be quarantined right after defusing them. If another RFID tag is scanned before defusing it, the bomb's state will reset (i.e., it must be defused again) and a penalty will be imposed.
-
-Type-2 and Type-3 bombs do not have this restriction. Nevertheless, if **any** bomb is Armed (not defused) when moved, the bomb will explode and penalty points be awarded.
+The bomb must not be moved till it is Disarmed (by scanning the corresponding RFID tag). In case it is moved before Disarming, the bomb will explode and a penalty will be imposed.
 
 Each team gets a total of **5 minutes** in the Arena to get as many points as they can.
 
 #### Scoring System
 
-* Type-1 Bomb Defusal: 20 points
-* Type-2 Bomb Defusal: 10 points
-* Type-3 Bomb Defusal: 50 points for defusing the bomb, 10 points for defusing each of the pre-requisite bombs. Points are also awarded for defusing the pre-requisite bombs.
-* Quarantining a bomb (any type): 50 points
+* Bomb Defusal: 20 points
+* Quarantining: 50 points
 
 #### Penalty
 
-* Lifting an Armed bomb: -50 points and the bomb cannot be defused again
-* Scanning two tags consecutively for a Type-1 bomb: -10 points
+* Bomb Explosion: -50 points and the bomb cannot be defused again
+* Scanning two tags consecutively: -10 points
 
 ### Knockout Round
 
@@ -95,7 +85,14 @@ The rules regarding bomb defusal are the same as in the Individual round. Howeve
 
 One team gets **5 minutes** to **place** the bombs in the Arena and the other team gets **5 minutes** to defuse these bombs as per the rules in the Individual round. After this, the teams placing the bombs and defusing the bombs are **reversed** and the game is played again. The team with the highest cumulative score of setting and defusing wins.
 
-The organizers of the competition will decide the number of Type-1, Type-2, and Type-3 bombs for the team to place in the Arena. The number of each type of bombs will be the same in both rounds. All the bombs will initially be kept in the Bomb Quarantine part of the Arena and the team placing the bombs must lift the bombs and place it in the Bomb Maze part of the Arena.
+The organizers of the competition will decide the number of bombs for the team to place in the Arena. The number of each type of bombs will be the same in both rounds.
+
+All the bombs will initially be kept in the Bomb Quarantine part of the Arena and the team placing the bombs must lift the bombs and place it in the Bomb Maze part of the Arena. The team setting the bombs must follow these instructions:
+
+1. Read any unscanned RFID tag on the arena.
+2. Pick up a bomb from the Quarantine area using the robot.
+3. Place the bomb in any of the pre-defined bomb drop areas on the competition Arena. Only one bomb may be placed in a given drop area. The RFID tag assigned to this bomb is the one scanned in step 1. Hence, only one bomb can be assinged to each RFID tag.
+4. Repeat from step 1 until there is no more time left or there are no more bombs left in the Quarantine area.
 
 The progression of the top four teams in the Knockout round is as follows:
 
@@ -109,10 +106,8 @@ The progression of the top four teams in the Knockout round is as follows:
 
 ##### Defusing Bombs
 
-* Type-1 Bomb Defusal: 20 points
-* Type-2 Bomb Defusal: 10 points
-* Type-3 Bomb Defusal: 50 points for defusing the bomb, 10 points for defusing each of the pre-requisite bombs. Points are also awarded for defusing the pre-requisite bombs.
-* Quarantining a bomb (any type): 50 points
+* Disarming: 20 points
+* Quarantining: 50 points
 
 #### Penalty
 
@@ -123,7 +118,7 @@ The progression of the top four teams in the Knockout round is as follows:
 ##### Defusing Bombs
 
 * Moving an Armed bomb: -50 points and the bomb cannot be defused again
-* Scanning two tags consecutively for a Type-1 bomb: -10 points
+* Scanning two tags consecutively: -10 points
 
 ## Rules and Guidelines
 
