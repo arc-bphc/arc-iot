@@ -134,6 +134,7 @@ responsibility to stay updated.
 
 ### Competition
 
+* Before the start of a round, one participant from each team should be selected for controlling the robot. Only one person is allowed to control the robot until the round is completed.
 * Participants will not be permitted to enter the Arena or touch any of the bombs inside or outside the Arena, during a match.
 * A robot can only move one bomb at a time.
 * The robots can come in contact with the walls but should not damage it.
