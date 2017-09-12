@@ -17,6 +17,7 @@ The Arena will consist of two areas:
 * The bombs are cardboard boxes of cubes of a consistent size of 5cm x 5cm x 5cm. The bombs are labelled with number. The bomb may *only* be moved when it has been disarmed.
 * The bomb maze section has several RFID tags scattered throughout it, each of which correspond to one bomb.
 * The robot must scan this RFID tag to disarm the bomb. The value scanned off the RFID tag is to be sent to a server listening on an IP address speicifed at the beginning of the competition. A display will then indicate the bomb to be moved to the Quarantine area.
+* The width of any route in the maze is at least 450mm.
 
 The server and display will be provided by the organisers.
 
@@ -32,7 +33,7 @@ The server and display will be provided by the organisers.
 
 ### Technical Specifications
 
-* Max Size: 300mm x 300mm x 300mm (l x b x h)
+* Max Size: 350mm x 300mm x 300mm (l x b x h)
 * Max Weight: 5kg
 * Max Operating Voltage: 12V
 * Power Supply Unit: Onboard battery (Li-Po, Li-Ion NiMH, NiCd, or Lead-acid)
