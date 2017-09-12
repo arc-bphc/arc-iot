@@ -42,7 +42,7 @@ The server and display will be provided by the organisers.
 
 * Commercially available ready-made robots are not allowed.
 * Each team is allowed to have only one robot.
-* The robot may be autonomous or manually controlled. If manually controlled, the bot must be controlled over wireless **only**.
+* The robot may be autonomous or manually controlled. If manually controlled, the bot must be controlled over either a wired or a wireless connection.
 * The robot must have an appendage for lifting and placing the bomb without pulling/pushing or damaging the bomb in any way. This can be any mechanical setup.
 * There are no restrictions on the sensors. However, to complete the competition, each robot must have a WiFi module and an RFID scanner onboard.
 
